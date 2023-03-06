@@ -3,18 +3,9 @@
 
 ## Features
 
-- [#432] General Support for Garmin accounts protected by Two Step Verification
-	- WebUI - New setting added to enable 2FA
-	- Console (manual) - New setting added to enable 2FA
-	- Headless (automatic sync) - Does not support 2FA
-	- GitHub Action - Does not support 2FA
-- [#438] On startup log path to config file being used
-
-## Fixes
-
-- [#430] Fixed where error thrown for classes with `*` in the title 
+- [#447] Map Exercises for Strength and Core classes when Class Plan information is available
+- Added support for mapping several more Exercises from Peloton to Garmin
 
 ## Housekeeping
 
-- [#434] Dependency Bumps
-- [#435] More Dependency Bumps
+- [#448] Dependency Bumps and pulled in latest Garmin SDK
